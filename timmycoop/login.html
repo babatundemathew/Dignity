@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+	 <link rel="icon" type="image/x-icon" href="timmylogo.png">
+	<style>
+        body{
+font-family:Arial,sans-serif;
+margin: 15px;;
+padding: 15px;;
+line-height:1.6;
+background-image: url("timmylogo.png");
+color:#020202;
+background-repeat: no-repeat;
+background-size:auto;
+background-position: center;
+background-attachment: fixed;
+}
+header{
+background:#e29a9a;
+opacity: 5px;
+color:#fff;
+padding:20px;
+text-align:center;	
+}
+.navbar{
+background::pink;
+position:relative;
+
+}
+.nav-links{
+	display:flex;
+	justify-content:center;
+	list-style:none;
+	margin:0;
+	padding:10px 0;
+}
+.nav-links li{
+	margin:0 15px;
+}
+.nav-links a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+section{
+	padding: 20px;
+	background:#e29a9a;
+	color: black;
+	margin: 10px;
+	border-radius: 5px;  
+
+}
+footer{
+	background:#e29a9a;
+	color:white;
+	text-align:center;
+	padding:10px;
+	border-radius: 10px;
+}
+.formcontainer{
+	display: flex;
+	
+
+}
+</style>
+</head>
+<body>
+    <header>
+		<nav class="navbar">
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us </a></li>
+<li><a href="#">Log in</a></li>
+<li><a href="Services.html">Our Services</a></li>
+<li><a href="#">Contact us</a></li>
+</ul>
+</nav>
+
+	<img src="timmylogo.png" alt="logo" height="100" width="100">
+		<h2>LOGIN</h2>
+    <h3>WELCOME BACK</h3>
+    <p><h4>THANKS FOR CHOOSING US</h4></p>
+    </header>
+    <br>
+    <section>
+     <div class="formcontainer">
+		<form action="register.php method="POST">
+			<ul>
+			<li><input type="email" name="email" placeholder="Email" required></li>
+			<li><input type="password" name="password" placeholder="Password" required></li>
+			<br>
+			<button type="submit">Login</button>
+		</form>
+	 </div>
+<a href="Getstarted.html">Create new acccount</a>
+    </section>
+    
+	<footer>
+<p>&copy;2025 Timmy Cooperative Society. All rights reserved.</p>
+</footer>
+</body>
+</html>
